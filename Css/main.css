@@ -137,32 +137,31 @@ nav ul li {
 /* ------------------------nav--media------------------ */
 @media screen and (max-width: 992px) {
 
+ .navbar-nav {
+    text-align: center;
+ }
+    
     .navbar-nav .nav-link:not(:has(.active))::before {
-        left: 4%;
+        left: 0;
+        right: 0;
+        margin: auto;
+        transform: translateX(0);
         bottom: 14%;
         transition: all .5s;
+
     }
 
     .navbar-nav .nav-link.active::before {
-        width: 10%;
-    }
+        left: 0;
+        right: 0;
+        margin: auto;
+        transform: translateX(0);
+        bottom: 14%;
+        transition: all .5s;
+        width: 20%;    }
 
 
 }
-
-@media screen and (max-width: 540px) {
-
-    .navbar-nav .nav-link:not(:has(.active))::before {
-        left: 6%;
-    }
-
-    .navbar-nav .nav-link.active::before {
-        width: 15%;
-    }
-
-
-}
-
 /* -----------------------nav-end------------------------------------------- */
 
 
