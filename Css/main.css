@@ -713,6 +713,83 @@ h5 {
     font-weight: 600;
 }
 
+
+@media screen and (max-width: 768px) {
+
+#works .nav {gap: 15px !important;
+font-size: small;}
+
+    .portofolio h5{
+        font-size: 1rem;
+    }
+    
+.p-icon {
+    width: 2rem;
+    height:2rem;
+    font-size: 1rem;
+
+}
+    
+.portofolio:hover .portofolio-hover h5 {
+    transform: translateY(130%);
+}
+
+.portofolio:hover .portofolio-hover .portofolio-icons {
+    transform: translateY(-90%);
+}
+
+
+}
+
+
+/* ------------------portofolio end------------------------------------ */
+/* -------------------------clints-------------------------------------- */
+#clints {
+    background-color: var(--section-bg);
+}
+
+.carousel-indicators [data-bs-target] {
+    display: block;
+    width: 10PX;
+    height: 10PX;
+    border-radius: 50%;
+}
+
+/* -----------------clints---media------------- */
+@media screen and (max-width: 768px) {
+    #clints {
+        margin: auto;
+        position: relative;
+        min-height: 600px;
+        padding: 0;
+    }
+    #clints p {
+        line-height: 1.5em;
+        font-size: 1rem;
+        padding: 1em;
+        
+    }
+    #clints img {
+        top: 10%;
+        padding: 0;
+        margin: 0;
+
+    }
+
+    h2 {
+        font-size:2rem ;
+        margin-inline-end: auto;
+        margin-block: 0;
+    }
+
+    .carousel-indicators {
+        bottom: 0px;
+
+    }
+
+
+}
+
 /* ------------------portofolio end------------------------------------ */
 /* -------------------------clints-------------------------------------- */
 #clints {
