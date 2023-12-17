@@ -783,7 +783,7 @@ font-size: small;}
     }
 
     .carousel-indicators {
-        bottom: 0px;
+        bottom: -200px;
 
     }
 
